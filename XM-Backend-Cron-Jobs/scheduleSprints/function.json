@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerSprints",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "45 51 0 * * 6"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerPiranhas",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0-37/5 22 * * *"
+    }
+  ]
+}

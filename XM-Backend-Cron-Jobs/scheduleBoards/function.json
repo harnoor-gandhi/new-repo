@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerBoards",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "15 11 0 * * 6"
+    }
+  ]
+}

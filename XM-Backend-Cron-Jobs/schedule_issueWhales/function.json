@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerWhales",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 44-59/5 22 * * *"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerCerts",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 15 11 * * *"
+    }
+  ]
+}

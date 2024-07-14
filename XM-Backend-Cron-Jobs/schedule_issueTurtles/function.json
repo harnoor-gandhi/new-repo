@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "myTimerTurtles",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */5 23 * * *"
+    }
+  ]
+}

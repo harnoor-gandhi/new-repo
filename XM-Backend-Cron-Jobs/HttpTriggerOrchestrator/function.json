@@ -1,0 +1,23 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "route" : "orchestrators",
+      "methods": [ "post" ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "name": "FunctionsOrchestrator",
+      "type": "orchestrationClient",
+      "direction": "in"
+    }
+  ]
+}
